@@ -1,0 +1,361 @@
+body{
+    background-color: rgb(83, 83, 83);
+}
+header{
+    background-color: black;
+    color: #6c757d;;
+    height: 400px;
+    text-align: center;
+    border-radius: 0.3cm;
+}
+
+p{
+    text-align: justify;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#cim{
+    font-size: 180px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+nav{
+    background-color: #6c757d;
+    border-radius: 0.2cm;
+    height: 60px;
+    text-align: center;
+    
+    
+}
+
+nav li{
+    display: inline;
+    
+    
+}
+
+nav ul{
+    padding: 10px;
+    font-size: x-large;
+    
+}
+
+nav a{
+    font-style: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+
+
+
+#bev{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 4px black;
+}
+
+#fel{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 4px black;
+}
+
+#tor{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 4px black;
+}
+
+
+#szer{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 4px black;
+    text-align: center;
+}
+
+
+.card{
+    background-color: black;
+    border: black 5px solid;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card h5{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+.img-thumbnail{
+    background-color: black;
+    border-color: black;
+    
+}
+
+
+
+
+#logo2{
+    margin: auto;
+    margin-bottom: 40px;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 300px;
+    
+}
+
+footer{
+    background-color: black;
+    border-color: black;
+    color: #6c757d;;
+    height: 300px;
+    text-align: center;
+    border-radius: 0.3cm;
+    
+}
+
+footer a{
+    font-style: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+footer li{
+    display: block;
+    
+}
+
+footer ul{
+    padding: 3rem;
+    font-size: x-large;
+    padding-top: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    header{
+        height: 170px;
+    }
+
+    #logo1{
+        height: 110px;
+        width: 100px;
+    }
+
+    #cim{
+        font-size: 80px;
+        
+    }
+
+    nav{
+        height: 25px;
+    }
+
+    nav ul{
+        padding: 0;
+        font-size: medium;
+        
+    }
+
+    nav a{
+        padding: 5px;
+        
+    }
+
+
+
+
+    #bev{
+        font-size: 70px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    #fel{
+        font-size: 70px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    #tor{
+        font-size: 70px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+    
+    #szer{
+        font-size: 70px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+    }
+
+
+
+    .card{
+        margin: auto;
+        margin-bottom: 20px;
+        max-width: 300px;
+        max-height: 500px;
+    }
+
+
+    p{
+        font-size: small;
+    }
+
+    footer{
+        height: 200px; 
+    }
+    
+    footer a{
+        font-size: 20px;
+    }
+    
+    
+    
+    footer ul{
+        padding: 1rem;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    #logo2{
+        height: 200px;
+        width: 120px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 425px){
+    header{
+        height: 110px;
+    }
+
+    #logo1{
+        height: 60px;
+        width: 60px;
+    }
+
+    #cim{
+        font-size: 45px;
+        
+    }
+
+    nav{
+        height: 20px;
+    }
+
+    nav ul{
+        padding: 5px;
+        font-size: xx-small;
+        
+    }
+
+    nav a{
+        padding: 5px;
+        
+    }
+
+
+
+
+    #bev{
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+        text-align: center;
+    }
+    
+    #fel{
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+        text-align: center;
+    }
+    
+    #tor{
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+        text-align: center;
+    }
+    
+    #szer{
+        font-size: 50px;
+        color: transparent;
+        -webkit-text-stroke: 2px black;
+        text-align: center;
+    }
+
+
+
+
+    .card{
+        margin:auto;
+        margin-bottom: 15px;
+        max-width: 200px;
+        max-height: 500px;
+    }
+
+
+   
+
+    p{
+        font-size: small;
+    }
+
+    footer{
+        height: 150px; 
+    }
+    
+    footer a{
+        font-size: 12px;
+    }
+    
+    
+    
+    footer ul{
+        padding: auto;
+        font-size: 10px;
+    }
+
+    #logo2{
+        height: 150px;
+        width: 90px;
+        margin: auto;
+    }
+
+}
